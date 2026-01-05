@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# Environment files
+.env
+.env.*
+
+# IDE/Editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# npm package lock file
+package-lock.json
+
+# Build directories
+dist/
+build/
+
+# Temporary directories or files
+tmp/
+temp/
+
+# Coverage reports (if using testing frameworks)
+coverage/
