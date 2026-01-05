@@ -15,7 +15,7 @@ const razorpay = new Razorpay({
 });
 
 app.get("/", (req, res) => {
-    res.json({message: "Hello from server"});
+    res.send("<h1>Server is running</h1>");
 })
 
 app.post("/create-order", async (req, res) => {
